@@ -2,9 +2,9 @@
 
 > End-to-End JDBC Application with Transaction Management & Performance Evaluation using Apache Derby
 
-**Course:** Database Management Systems Lab
-**Roll Number:** 2341013229
-**University:** [Your University Name]
+**Course:** Database Implementation in JDBC (CSE3488)
+**Roll Number:** 2341013182
+**University:** Siksha 'O' Anusandhan (Deemed to be University), Bhubaneswar
 **Academic Year:** 2025–2026
 
 ---
@@ -23,7 +23,7 @@ A console-driven Library Loan Management System built entirely in Java using JDB
 ## Project Structure
 
 ```
-LibrarySystem-2341013229/
+LibrarySystem-2341013182/
 │
 ├── src/
 │   └── com/dbms/library/
@@ -59,8 +59,8 @@ LibrarySystem-2341013229/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/LibrarySystem-2341013229.git
-cd LibrarySystem-2341013229
+git clone https://github.com/ronit-mishra-07/LibrarySystem-2341013182.git
+cd LibrarySystem-2341013182
 ```
 
 ### 2. Build the Project
@@ -80,7 +80,7 @@ mvn exec:java -Dexec.mainClass="com.dbms.library.LibraryApp"
 ### 4. Or run the packaged JAR directly
 
 ```bash
-java -jar target/LibrarySystem-2341013229-1.0-jar-with-dependencies.jar
+java -jar target/LibrarySystem-2341013182-1.0-jar-with-dependencies.jar
 ```
 
 > **Note:** `LibraryDB/` is auto-created by Derby on first run and is listed in `.gitignore`. Do not push it.
@@ -251,4 +251,4 @@ setAutoCommit(false)
 
 ## License
 
-This project is submitted as academic coursework for DBMS Lab at [Your University Name].
+This project is submitted as academic coursework for CSE3488 at ITER, SOA University.
