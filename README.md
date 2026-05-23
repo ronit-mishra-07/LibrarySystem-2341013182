@@ -23,22 +23,15 @@ A console-driven Library Loan Management System built entirely in Java using JDB
 ## Project Structure
 
 ```
-LibrarySystem-2341013182/
-│
-├── src/
-│   └── com/dbms/library/
-│       ├── LibraryApp.java           # Entry point — main menu loop
-│       ├── DBHelper.java             # DB URL, schema creation, error handler, shutdown
-│       ├── MemberService.java        # Register member (INSERT into Members)
-│       ├── BookService.java          # Add book (INSERT into Books)
-│       ├── LoanManager.java          # processLoan, returnBook, viewLoans
-│       └── PerformanceBenchmark.java # 3-test JDBC benchmark + summary report
-│
-├── LibraryDB/                        # Auto-created by Derby on first run (git-ignored)
-│
-├── pom.xml                           # Maven build — pulls Derby from Maven Central
-├── README.md
-└── .gitignore
+src/
+└── main/
+    └── java/
+        └── com/
+            └── dbms/
+                └── LibrarySystem_2341013182/
+                    └── LibrarySystem.java
+                    ├── README.md
+                    └── .gitignore
 ```
 
 ---
@@ -74,7 +67,7 @@ mvn clean package
 ### 3. Run via Maven
 
 ```bash
-mvn exec:java -Dexec.mainClass="com.dbms.library.LibraryApp"
+mvn exec:java -Dexec.mainClass="com.dbms.LibrarySystem_2341013182.LibrarySystem"
 ```
 
 ### 4. Or run the packaged JAR directly
