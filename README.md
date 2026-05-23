@@ -23,15 +23,19 @@ A console-driven Library Loan Management System built entirely in Java using JDB
 ## Project Structure
 
 ```
-src/
-└── main/
-    └── java/
-        └── com/
-            └── dbms/
-                └── LibrarySystem_2341013182/
-                    └── LibrarySystem.java
-                    ├── README.md
-                    └── .gitignore
+jdbc-library-loan-system/
+│
+├── src/
+│   └── com/dbms/lab/
+│       └── mini_project_1.java       # Main application (all modules)
+│
+├── lib/
+│   └── derby.jar                     # Apache Derby embedded driver
+│
+├── LibraryDB/                        # Auto-created by Derby on first run
+│
+├── README.md
+└── .gitignore
 ```
 
 ---
