@@ -1,0 +1,24 @@
+# ── Derby auto-generated database folder ──────────────────────────────────────
+LibraryDB/
+derby.log
+
+# ── Maven build output ─────────────────────────────────────────────────────────
+target/
+out/
+
+# ── Compiled class files ───────────────────────────────────────────────────────
+*.class
+
+# ── IDE config files ───────────────────────────────────────────────────────────
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.vscode/
+
+# ── OS files ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
